@@ -99,6 +99,29 @@ vim.cmd [[
         require("toggleterm").setup()
     end}
 
+-- file explorer
+  use("nvim-tree/nvim-tree.lua")
+
+-- icons
+  use("kyazdani42/nvim-web-devicons")
+
+-- statusline
+  use {
+    'nvim-lualine/lualine.nvim',
+    requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
 
 end)
 
