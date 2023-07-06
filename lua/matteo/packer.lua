@@ -15,6 +15,7 @@ vim.cmd [[
   augroup end
 ]]
 
+
 -- telescope
 
   use {
@@ -92,7 +93,11 @@ vim.cmd [[
     config = function() require("nvim-autopairs").setup {} end
   }
 
+-- toggleterm
 
+    use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+        require("toggleterm").setup()
+    end}
 
 
 end)
