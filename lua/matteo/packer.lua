@@ -26,9 +26,9 @@ vim.cmd [[
 
 -- colorscheme
 
-  use { "bluz71/vim-moonfly-colors", as = "moonfly" }
-  vim.cmd [[colorscheme moonfly]]
-
+  --use({ 'rose-pine/neovim', as = 'rose-pine' })
+ -- use('yonlu/omni.vim')
+ use { "bluz71/vim-moonfly-colors", as = "moonfly" }
 
 -- treesitter
 

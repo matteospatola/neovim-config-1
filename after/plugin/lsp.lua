@@ -8,7 +8,7 @@ lsp.ensure_installed({
   'clangd',
   'csharp_ls',
   'jdtls',
-  'pylsp'
+  'pylsp',
 
 
 
