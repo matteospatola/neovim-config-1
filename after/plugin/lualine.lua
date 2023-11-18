@@ -4,6 +4,9 @@ if not status then
   return
 end
 
+
+
+
 -- get lualine nightfly theme
 local lualine_moonfly = require("lualine.themes.moonfly")
 
@@ -34,3 +37,6 @@ lualine.setup({
     theme = lualine_moonfly,
   },
 })
+
+
+

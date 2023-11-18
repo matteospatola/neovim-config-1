@@ -19,16 +19,19 @@ vim.cmd [[
 -- telescope
 
   use {
-	  'nvim-telescope/telescope.nvim', tag = '0.1.1',
-	  -- or                            , branch = '0.1.x',
-	  requires = { {'nvim-lua/plenary.nvim'} }
-  }
+      'nvim-telescope/telescope.nvim', tag = '0.1.4',
+-- or                            , branch = '0.1.x',
+      requires = { {'nvim-lua/plenary.nvim'} }
+    }
 
 -- colorscheme
 
-  --use({ 'rose-pine/neovim', as = 'rose-pine' })
+ -- use({ 'rose-pine/neovim', as = 'rose-pine' })
  -- use('yonlu/omni.vim')
- use { "bluz71/vim-moonfly-colors", as = "moonfly" }
+ -- use { "bluz71/vim-moonfly-colors", as = "moonfly" }
+  use 'arzg/vim-colors-xcode'
+
+-- use 'rmehri01/onenord.nvim'
 
 -- treesitter
 
@@ -111,7 +114,7 @@ vim.cmd [[
     requires = { 'nvim-tree/nvim-web-devicons', opt = true }
   }
 
-
+  use {'ThePrimeagen/vim-be-good'}
 
 
 

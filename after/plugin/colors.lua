@@ -1,4 +1,4 @@
---function ColorMyPencils(color)
+--  function ColorMyPencils(color)
 --	color = color or "moonfly"
 --	vim.cmd.colorscheme(color)
 
@@ -10,7 +10,13 @@
 
 --ColorMyPencils()
 
-vim.cmd [[colorscheme moonfly]]
+vim.cmd [[colorscheme xcodedarkhc]]
+
+
 vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+vim.api.nvim_set_hl(0, "NonText", { bg = "none" })
+vim.api.nvim_set_hl(0, "LineNr", { bg = "none" })
+vim.api.nvim_set_hl(0, "Folded", { bg = "none" })
+vim.api.nvim_set_hl(0, "EndOfBuffer", { bg = "none" })
 

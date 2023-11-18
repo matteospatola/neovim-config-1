@@ -49,4 +49,10 @@ vim.keymap.set("n", "<leader>tp", ":tabp<CR>") --  go to previous tab
 -- nvim-tree
 vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
 
+-- get rid of <shift+space> making :2u
+
+vim.api.nvim_set_keymap('t', '<S-Space>', ' ', {noremap = true, silent = true})
+
+
+
 

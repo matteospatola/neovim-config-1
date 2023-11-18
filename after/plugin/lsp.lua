@@ -10,9 +10,8 @@ lsp.ensure_installed({
   'jdtls',
   'pylsp',
 
-
-
 })
+
 
 -- Fix Undefined global 'vim'
 lsp.nvim_workspace()
@@ -53,6 +52,8 @@ lsp.on_attach(function(client, bufnr)
   vim.keymap.set("n", "<leader>vrn", function() vim.lsp.buf.rename() end, opts)
  -- vim.keymap.set("i", "<C-h>", function() vim.lsp.buf.signature_help() end, opts)
 end)
+
+
 
 lsp.setup()
 
