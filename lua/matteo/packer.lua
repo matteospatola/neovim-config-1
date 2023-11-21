@@ -29,7 +29,8 @@ vim.cmd [[
  -- use({ 'rose-pine/neovim', as = 'rose-pine' })
  -- use('yonlu/omni.vim')
  -- use { "bluz71/vim-moonfly-colors", as = "moonfly" }
-  use 'arzg/vim-colors-xcode'
+ -- use 'arzg/vim-colors-xcode'
+  use { 'dasupradyumna/midnight.nvim' }
 
 -- use 'rmehri01/onenord.nvim'
 
